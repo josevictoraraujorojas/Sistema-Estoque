@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-16T14:46:02.982Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="zF5XwXtjHNHvMonR52Vm" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-16T14:56:23.999Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="GuRcOXtEvXqXI3znLcCa" version="24.0.7" type="github">
   <diagram name="Página-1" id="bAW6rvpa4SddosETt1AI">
     <mxGraphModel dx="2261" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,7 +73,7 @@
         <mxCell id="c_xKtwcv7U-fZD7rM81X-6" value="Alerta De Estoque Baixo" style="ellipse;whiteSpace=wrap;html=1;" parent="c_xKtwcv7U-fZD7rM81X-43" vertex="1">
           <mxGeometry x="20" y="200" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="GG5-wgB0X3b8xxEFFTJD-3" value="Relatório" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="c_xKtwcv7U-fZD7rM81X-43">
+        <mxCell id="GG5-wgB0X3b8xxEFFTJD-3" value="Mostrar Relatório" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="c_xKtwcv7U-fZD7rM81X-43">
           <mxGeometry x="400" y="220" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GG5-wgB0X3b8xxEFFTJD-4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="GG5-wgB0X3b8xxEFFTJD-3" target="c_xKtwcv7U-fZD7rM81X-4">
