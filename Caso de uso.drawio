@@ -1,0 +1,77 @@
+<mxfile host="app.diagrams.net" modified="2024-03-16T12:50:04.550Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="t1gPJHw-eGy6RCCzfVWo" version="24.0.7" type="github">
+  <diagram name="Página-1" id="bAW6rvpa4SddosETt1AI">
+    <mxGraphModel dx="2261" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c_xKtwcv7U-fZD7rM81X-1" value="Cadastrar Produto" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c_xKtwcv7U-fZD7rM81X-2" value="Funcionário" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c_xKtwcv7U-fZD7rM81X-4" value="Gerencia Estoque" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c_xKtwcv7U-fZD7rM81X-5" value="Movimentação De Estoque" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="380" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c_xKtwcv7U-fZD7rM81X-6" value="Alerta De Estoque Baixo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c_xKtwcv7U-fZD7rM81X-7" value="Alerta de Baixa rotatividade" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="570" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c_xKtwcv7U-fZD7rM81X-8" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="c_xKtwcv7U-fZD7rM81X-7" target="c_xKtwcv7U-fZD7rM81X-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="530" as="sourcePoint" />
+            <mxPoint x="530" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c_xKtwcv7U-fZD7rM81X-12" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="c_xKtwcv7U-fZD7rM81X-6" target="c_xKtwcv7U-fZD7rM81X-4">
+          <mxGeometry x="-0.0625" y="10" width="160" relative="1" as="geometry">
+            <mxPoint x="324" y="580" as="sourcePoint" />
+            <mxPoint x="484" y="580" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c_xKtwcv7U-fZD7rM81X-13" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="c_xKtwcv7U-fZD7rM81X-5" target="c_xKtwcv7U-fZD7rM81X-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="540" as="sourcePoint" />
+            <mxPoint x="270" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c_xKtwcv7U-fZD7rM81X-14" value="Sistema de Ponto De Venda" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="360" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c_xKtwcv7U-fZD7rM81X-17" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="c_xKtwcv7U-fZD7rM81X-1" target="c_xKtwcv7U-fZD7rM81X-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="250" as="sourcePoint" />
+            <mxPoint x="324" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c_xKtwcv7U-fZD7rM81X-23" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="c_xKtwcv7U-fZD7rM81X-1" target="c_xKtwcv7U-fZD7rM81X-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c_xKtwcv7U-fZD7rM81X-24" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="c_xKtwcv7U-fZD7rM81X-4" target="c_xKtwcv7U-fZD7rM81X-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c_xKtwcv7U-fZD7rM81X-25" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="c_xKtwcv7U-fZD7rM81X-14" target="c_xKtwcv7U-fZD7rM81X-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="280" as="sourcePoint" />
+            <mxPoint x="780" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c_xKtwcv7U-fZD7rM81X-43" value="Sistema de Estoque" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="130" y="30" width="580" height="640" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
