@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-16T12:51:27.898Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="aydkRplXNngy9-KVWD3r" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-16T12:57:25.164Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="RLxVV_AdRA29PZP_2rWI" version="24.0.7" type="github">
   <diagram name="Página-1" id="bAW6rvpa4SddosETt1AI">
     <mxGraphModel dx="2261" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -60,7 +60,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="c_xKtwcv7U-fZD7rM81X-43" value="Sistema de Estoque" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="130" y="30" width="580" height="640" as="geometry" />
+          <mxGeometry x="130" y="30" width="580" height="640" as="geometry">
+            <mxRectangle x="130" y="30" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="c_xKtwcv7U-fZD7rM81X-7" value="Alerta de Baixa rotatividade" style="ellipse;whiteSpace=wrap;html=1;" parent="c_xKtwcv7U-fZD7rM81X-43" vertex="1">
           <mxGeometry x="400" y="350" width="120" height="80" as="geometry" />
@@ -70,6 +72,21 @@
         </mxCell>
         <mxCell id="c_xKtwcv7U-fZD7rM81X-6" value="Alerta De Estoque Baixo" style="ellipse;whiteSpace=wrap;html=1;" parent="c_xKtwcv7U-fZD7rM81X-43" vertex="1">
           <mxGeometry x="20" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GG5-wgB0X3b8xxEFFTJD-3" value="Relatório" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="c_xKtwcv7U-fZD7rM81X-43">
+          <mxGeometry x="400" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GG5-wgB0X3b8xxEFFTJD-4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="GG5-wgB0X3b8xxEFFTJD-3" target="c_xKtwcv7U-fZD7rM81X-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="170" as="sourcePoint" />
+            <mxPoint x="410" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GG5-wgB0X3b8xxEFFTJD-5" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="GG5-wgB0X3b8xxEFFTJD-3" target="c_xKtwcv7U-fZD7rM81X-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="280" as="sourcePoint" />
+            <mxPoint x="470" y="280" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
