@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-17T08:32:16.884Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="dcE30XxHzNV5UQC59sMZ" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-17T08:56:38.364Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="eX-S_cwEyLXSMcNnwn2v" version="24.0.7" type="github">
   <diagram name="Página-1" id="bAW6rvpa4SddosETt1AI">
-    <mxGraphModel dx="2440" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3172" dy="949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,16 +28,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="c_xKtwcv7U-fZD7rM81X-7" value="Alerta de Baixa rotatividade" style="ellipse;whiteSpace=wrap;html=1;" parent="c_xKtwcv7U-fZD7rM81X-43" vertex="1">
-          <mxGeometry x="451.5" y="410" width="120" height="80" as="geometry" />
+          <mxGeometry x="31.5" y="420" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="c_xKtwcv7U-fZD7rM81X-6" value="Alerta De Estoque Baixo" style="ellipse;whiteSpace=wrap;html=1;" parent="c_xKtwcv7U-fZD7rM81X-43" vertex="1">
-          <mxGeometry x="461.5" y="270" width="120" height="80" as="geometry" />
+          <mxGeometry x="471.5" y="210" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="GG5-wgB0X3b8xxEFFTJD-3" value="Gerenciar Relatórios" style="ellipse;whiteSpace=wrap;html=1;" parent="c_xKtwcv7U-fZD7rM81X-43" vertex="1">
-          <mxGeometry x="111.5" y="250" width="120" height="80" as="geometry" />
+        <mxCell id="GG5-wgB0X3b8xxEFFTJD-3" value="Gerenciar&amp;nbsp;&lt;div&gt;Relatórios&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="c_xKtwcv7U-fZD7rM81X-43" vertex="1">
+          <mxGeometry x="37.25" y="215" width="108.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="c_xKtwcv7U-fZD7rM81X-5" value="Movimentação De Estoque" style="ellipse;whiteSpace=wrap;html=1;" parent="c_xKtwcv7U-fZD7rM81X-43" vertex="1">
-          <mxGeometry x="231.5" y="520" width="120" height="80" as="geometry" />
+          <mxGeometry x="271.5" y="520" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="c_xKtwcv7U-fZD7rM81X-8" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="c_xKtwcv7U-fZD7rM81X-43" source="c_xKtwcv7U-fZD7rM81X-7" target="c_xKtwcv7U-fZD7rM81X-5" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -52,10 +52,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GG5-wgB0X3b8xxEFFTJD-16" value="Gerenciar Funcionário" style="ellipse;whiteSpace=wrap;html=1;" parent="c_xKtwcv7U-fZD7rM81X-43" vertex="1">
-          <mxGeometry x="111.5" y="50" width="120" height="80" as="geometry" />
+          <mxGeometry x="37.25" y="65" width="108.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="c_xKtwcv7U-fZD7rM81X-4" value="Gerenciar livros" style="ellipse;whiteSpace=wrap;html=1;" parent="c_xKtwcv7U-fZD7rM81X-43" vertex="1">
-          <mxGeometry x="375" y="100" width="120" height="80" as="geometry" />
+          <mxGeometry x="271.5" y="60" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GG5-wgB0X3b8xxEFFTJD-4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="c_xKtwcv7U-fZD7rM81X-43" source="GG5-wgB0X3b8xxEFFTJD-3" target="c_xKtwcv7U-fZD7rM81X-4" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -74,6 +74,15 @@
             <mxPoint x="304" y="675" as="sourcePoint" />
             <mxPoint x="464" y="675" as="targetPoint" />
             <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jjxJcU1xFX9MgvjxWTt-2" value="Processamento De Pedidos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="c_xKtwcv7U-fZD7rM81X-43">
+          <mxGeometry x="471.5" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_jjxJcU1xFX9MgvjxWTt-3" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="c_xKtwcv7U-fZD7rM81X-43" source="_jjxJcU1xFX9MgvjxWTt-2" target="c_xKtwcv7U-fZD7rM81X-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="341.5" y="600" as="sourcePoint" />
+            <mxPoint x="501.5" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GG5-wgB0X3b8xxEFFTJD-6" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="GG5-wgB0X3b8xxEFFTJD-3" target="c_xKtwcv7U-fZD7rM81X-2" edge="1">
@@ -98,6 +107,12 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="530" y="720" as="sourcePoint" />
             <mxPoint x="366" y="611" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_jjxJcU1xFX9MgvjxWTt-4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="_jjxJcU1xFX9MgvjxWTt-2" target="GG5-wgB0X3b8xxEFFTJD-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="601" y="191" as="sourcePoint" />
+            <mxPoint x="780" y="227" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
